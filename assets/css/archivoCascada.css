@@ -1,0 +1,73 @@
+.BarraMenuSuperior{
+
+    padding: 0%;
+    margin: 0%;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 13.5%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+.BarraMenuSuperiorTabla{
+
+    background-color: blueviolet;
+    background-image: linear-gradient(to right, blueviolet, rgb(205, 152, 255));
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+
+}
+.BannerMenuSuperior{
+
+    width: 18%;
+    height: auto;
+    text-align: center;
+    margin-left: 42%;
+
+}
+.BarraMenuSuperiorSubMenu{
+
+    background-color: rgb(205, 152, 255);
+    background-image: linear-gradient(to right, rgb(205, 152, 255), rgb(233, 210, 255));
+    background-repeat: no-repeat;
+    height: 30%;
+
+}
+.FondoYGeneral {
+    
+    left: 0;
+    position: fixed;
+    height: 1000%;
+    width: 100%;
+    background-image: url(../img/PaguinaWeb/Background.jpg);
+    background-repeat: repeat;
+    z-index: -1;
+
+}
+.FondoPaginaWeb {
+    left: 0;
+    position: fixed;
+    height: 1000%;
+    width: 100%;
+    background-image: url(../img/PaguinaWeb/BackgroundGlow.png);
+    background-repeat: repeat;
+    z-index: 0;
+    background-color: rgba(200, 200, 200, 0.5);
+    
+}
+.BarraInferiorInformacion{
+
+    position: fixed;
+    top: 93%;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
